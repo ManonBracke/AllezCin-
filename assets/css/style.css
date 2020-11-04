@@ -1,1 +1,95 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #808080;
+}
+
+header {
+  background: none;
+}
+
+header p {
+  font-size: 3rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header span {
+  color: #fc4340;
+}
+
+header a {
+  padding-right: 50px;
+}
+
+header .nav-link1 {
+  padding: 10px;
+  font-weight: 600;
+}
+
+header ul li {
+  padding-right: 2rem;
+}
+
+header a.nav-link1:link, header a.nav-link1:visited {
+  color: #4c5155;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header a.nav-link1:hover {
+  color: #FFFFFF;
+  background-color: #fc4340;
+  border-radius: 10px;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+  float: right;
+}
+
+header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+header nav {
+  width: 100%;
+}
+
+header .active1 a.nav-link1 {
+  color: #fc4340;
+}
+
+header .active1 a.nav-link1:hover {
+  color: #FFFFFF;
+}
+
+.infos {
+  background: #fc4340;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  height: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.infos a {
+  text-decoration: none;
+  background: #000000;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.infos .espace {
+  padding: 1.5rem 0.5rem;
+}

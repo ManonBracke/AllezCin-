@@ -1,0 +1,55 @@
+header{
+    //position: fixed;
+    background: none;
+    p{
+        font-size: 3rem;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    span{
+        color: $primary;
+    }
+    a{
+        padding-right: 50px;
+    }
+    .nav-link1{
+        padding: 10px;
+        font-weight: 600;
+    }
+    ul li{
+        padding-right: 2rem;
+    }
+    a.nav-link1:link, a.nav-link1:visited{
+        color: $secondary;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: 1s;
+    }
+    a.nav-link1:hover{
+        color: $white;
+        background-color: $primary;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: 1s;
+    }
+    .navbar-toggler {
+        color: rgba(0, 0, 0, 0.5);
+        border-color: rgba(0, 0, 0, 0.1);
+        float: right;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    nav{
+        width: 100%;
+    }
+    .active1 a.nav-link1{
+        color:$primary;
+    }
+    .active1 a.nav-link1:hover{
+        color:$white;
+
+    }     
+}

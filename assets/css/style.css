@@ -29,6 +29,7 @@ header .nav-link1 {
 
 header ul li {
   padding-right: 2rem;
+  padding-bottom: 2rem;
 }
 
 header a.nav-link1:link, header a.nav-link1:visited {
@@ -139,4 +140,34 @@ footer .email {
   border: solid 2px #FFFFFF;
   padding: 5px 5rem 5px 5px;
   margin-bottom: 1rem;
+}
+
+.movie h2 {
+  text-transform: uppercase;
+  padding: 5px;
+  border-left: solid 5px #fc4340;
+  font-size: 1.5rem;
+}
+
+.movie ul li {
+  float: left;
+  list-style: none;
+  margin: 3px;
+}
+
+.movie a:link, .movie a:visited {
+  background: #f2f0f1;
+  text-align: center;
+  padding: 1rem;
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.movie a:hover {
+  background: #fc4340;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: #FFFFFF;
 }

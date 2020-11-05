@@ -4,6 +4,7 @@
 $black: #000000;
 $primary: #fc4340;
 $secondary: #4c5155;
+$terciary: #f2f0f1;
 $white: #FFFFFF;
 
 body{
@@ -16,3 +17,4 @@ body{
 @import 'infos';
 @import 'caroussel';
 @import 'footer';
+@import 'movie';

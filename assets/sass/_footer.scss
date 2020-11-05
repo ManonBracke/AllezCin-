@@ -1,0 +1,35 @@
+footer{
+    background: $black;
+    color: $white;
+    sub{
+        background: $secondary;
+    }
+    a:link, a:visited{
+        color: $secondary;
+        text-decoration: none;
+        transition: 1s;
+    }
+    a:hover{
+        color: $white;
+        text-decoration: none;
+        transition: 1s;
+    }
+    
+    .row h3{
+        color: $primary;
+    }
+    .bouton{
+        color: $white;
+        background: $primary;
+        text-transform: uppercase;
+        padding:5px;
+        border-radius: 5px;
+        border: $primary 2px solid;
+    }
+    .email{
+        border-radius: 5px;
+        border: solid 2px $white;
+        padding: 5px 5rem 5px 5px;
+        margin-bottom: 1rem;
+    }
+}

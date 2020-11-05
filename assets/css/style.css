@@ -1,10 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
   font-family: 'Roboto', sans-serif;
+  background: #f2f0f1;
+}
+
+body p {
+  text-align: center;
 }
 
 header {
   background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 header p {
@@ -29,7 +39,7 @@ header .nav-link1 {
 
 header ul li {
   padding-right: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 header a.nav-link1:link, header a.nav-link1:visited {
@@ -52,7 +62,7 @@ header a.nav-link1:hover {
 header .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1);
-  float: right;
+  float: left;
 }
 
 header .navbar-toggler-icon {
@@ -69,6 +79,10 @@ header .active1 a.nav-link1 {
 
 header .active1 a.nav-link1:hover {
   color: #FFFFFF;
+}
+
+header .formu {
+  margin: auto;
 }
 
 .infos {
@@ -133,6 +147,7 @@ footer .bouton {
   padding: 5px;
   border-radius: 5px;
   border: #fc4340 2px solid;
+  font-weight: 600;
 }
 
 footer .email {
@@ -142,11 +157,18 @@ footer .email {
   margin-bottom: 1rem;
 }
 
+.movie {
+  background: #FFFFFF;
+  padding-top: 5rem;
+  text-align: center;
+}
+
 .movie h2 {
   text-transform: uppercase;
   padding: 5px;
   border-left: solid 5px #fc4340;
   font-size: 1.5rem;
+  text-align: left;
 }
 
 .movie ul li {
@@ -155,7 +177,8 @@ footer .email {
   margin: 3px;
 }
 
-.movie a:link, .movie a:visited {
+.movie ul li a:link, .movie ul li a:visited {
+  border: none;
   background: #f2f0f1;
   text-align: center;
   padding: 1rem;
@@ -163,11 +186,58 @@ footer .email {
   text-decoration: none;
   -webkit-transition: 1s;
   transition: 1s;
+  border-radius: 5px;
 }
 
-.movie a:hover {
+.movie ul li a:hover {
+  border: none;
   background: #fc4340;
   -webkit-transition: 1s;
   transition: 1s;
   color: #FFFFFF;
+}
+
+.movie a:link, .movie a:visited, .movie a:hover {
+  color: #FFFFFF;
+  background: #fc4340;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  border: #fc4340 2px solid;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.shop {
+  padding-top: 5rem;
+  background: #FFFFFF;
+}
+
+.shop h2 {
+  text-transform: uppercase;
+  padding: 5px;
+  border-left: solid 5px #fc4340;
+  font-size: 1.5rem;
+}
+
+.contact {
+  padding-top: 5rem;
+  background: #FFFFFF;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  padding: 5px;
+  border-left: solid 5px #fc4340;
+  font-size: 1.5rem;
+}
+
+.contact button {
+  color: #FFFFFF;
+  background: #fc4340;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  border: #fc4340 2px solid;
+  font-weight: 600;
 }

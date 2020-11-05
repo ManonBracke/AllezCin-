@@ -1,26 +1,44 @@
 .movie{
+    background: $white;
+    padding-top: 5rem;
+    text-align: center;
     h2{
         text-transform: uppercase;
         padding: 5px;
         border-left: solid 5px $primary;
         font-size: 1.5rem;
+        text-align: left;
     }
     ul li{
         float: left;
         list-style: none;
         margin: 3px;
+        a:link, a:visited{
+            border: none;
+            background: $terciary;
+            text-align: center;
+            padding: 1rem;
+            color:$black;
+            text-decoration: none;
+            transition: 1s;
+            border-radius: 5px;
+        }
+        a:hover{
+            border: none;
+            background: $primary;
+            transition: 1s;
+            color: $white;
+        }
     }
-    a:link, a:visited{
-        background: $terciary;
-        text-align: center;
-        padding: 1rem;
-        color:$black;
-        text-decoration: none;
-        transition: 1s;
-    }
-    a:hover{
-        background: $primary;
-        transition: 1s;
+
+    a:link, a:visited, a:hover {
         color: $white;
+        background: $primary;
+        text-transform: uppercase;
+        padding:5px;
+        border-radius: 5px;
+        border: $primary 2px solid;
+        font-weight: 600;
+        text-decoration: none;
     }
 }

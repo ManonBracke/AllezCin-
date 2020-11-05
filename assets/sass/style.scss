@@ -9,6 +9,10 @@ $white: #FFFFFF;
 
 body{
     font-family: 'Roboto', sans-serif;
+    background: $terciary;
+    p{
+        text-align: center;
+    }
     
 }
 
@@ -18,3 +22,5 @@ body{
 @import 'caroussel';
 @import 'footer';
 @import 'movie';
+@import 'shop';
+@import 'contact';

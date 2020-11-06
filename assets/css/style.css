@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background: #f2f0f1;
@@ -83,6 +87,10 @@ header .active1 a.nav-link1:hover {
 
 header .formu {
   margin: auto;
+}
+
+header .dropdown-menu {
+  margin-top: -2rem;
 }
 
 .infos {
@@ -240,4 +248,81 @@ footer .email {
   border-radius: 5px;
   border: #fc4340 2px solid;
   font-weight: 600;
+}
+
+.reseau {
+  list-style: none;
+  background: #FFFFFF;
+}
+
+.reseau .twitter a:link, .reseau .twitter a:visited {
+  background: #14abfa;
+  padding: 0.8rem 1rem 0.8rem 1.5rem;
+  color: #FFFFFF;
+  border-radius: 50px;
+  margin-left: -5rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.reseau .twitter a:hover {
+  text-decoration: none;
+  border-radius: 50px;
+  margin-left: -0.8rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.reseau .facebook a:link, .reseau .facebook a:visited {
+  background: #3b5b96;
+  padding: 0.8rem 1rem 0.8rem 1.5rem;
+  color: #FFFFFF;
+  border-radius: 50px;
+  margin-left: -5.9rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.reseau .facebook a:hover {
+  text-decoration: none;
+  border-radius: 50px;
+  margin-left: -0.8rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.reseau .dribble a:link, .reseau .dribble a:visited {
+  background: #f14486;
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  color: #FFFFFF;
+  border-radius: 50px;
+  margin-left: -4.3rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.reseau .dribble a:hover {
+  text-decoration: none;
+  border-radius: 50px;
+  margin-left: -0.8rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.reseau .google a:link, .reseau .google a:visited {
+  background: #df4e3d;
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  color: #FFFFFF;
+  border-radius: 50px;
+  margin-left: -4.9rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.reseau .google a:hover {
+  text-decoration: none;
+  border-radius: 50px;
+  margin-left: -0.8rem;
+  -webkit-transition: 1s;
+  transition: 1s;
 }

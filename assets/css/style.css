@@ -90,6 +90,7 @@ header .formu {
 
 .caroussel {
   margin-top: -10rem;
+  position: relative;
 }
 
 .infos {
@@ -275,7 +276,6 @@ header .formu {
 }
 
 .tendance {
-  width: 70rem;
   margin: 1rem auto auto auto;
   background: #f2f0f1;
   border-radius: 10px;

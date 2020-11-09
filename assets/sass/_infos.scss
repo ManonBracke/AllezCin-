@@ -1,19 +1,17 @@
 .infos{
     background: $primary;
     color: $white;
-    text-transform: uppercase;
     height: 4.5rem;
     display: flex;
     align-content: center;
-    
-    a{
-        text-decoration: none;
+    button{
         background: $black;
+        border: $black 1px solid;
         color: $white;
-        padding: 10px;
         border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        text-transform: uppercase;
     }
-    .espace{
-        padding: 1.5rem 0.5rem;
-    }
+
 }

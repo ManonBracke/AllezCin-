@@ -95,7 +95,6 @@ header .formu {
 .infos {
   background: #fc4340;
   color: #FFFFFF;
-  text-transform: uppercase;
   height: 4.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,16 +103,14 @@ header .formu {
       align-content: center;
 }
 
-.infos a {
-  text-decoration: none;
+.infos button {
   background: #000000;
+  border: #000000 1px solid;
   color: #FFFFFF;
-  padding: 10px;
   border-radius: 5px;
-}
-
-.infos .espace {
-  padding: 1.5rem 0.5rem;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .movie {
@@ -326,4 +323,22 @@ footer .email {
   border: solid 2px #FFFFFF;
   padding: 5px 5rem 5px 5px;
   margin-bottom: 1rem;
+}
+
+.modal1 .bouton {
+  color: #FFFFFF;
+  background: #fc4340;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  border: #fc4340 2px solid;
+  font-weight: 600;
+}
+
+.modal1 .bouton1 {
+  color: #000000;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: #FFFFFF 2px solid;
+  font-weight: 500;
 }

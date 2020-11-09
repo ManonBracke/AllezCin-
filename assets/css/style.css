@@ -5,7 +5,6 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #f2f0f1;
 }
 
 body p {
@@ -89,8 +88,8 @@ header .formu {
   margin: auto;
 }
 
-header .dropdown-menu {
-  margin-top: -2rem;
+.caroussel {
+  margin-top: -10rem;
 }
 
 .infos {
@@ -115,54 +114,6 @@ header .dropdown-menu {
 
 .infos .espace {
   padding: 1.5rem 0.5rem;
-}
-
-.caroussel {
-  margin-top: -10rem;
-}
-
-footer {
-  background: #000000;
-  color: #FFFFFF;
-}
-
-footer sub {
-  background: #4c5155;
-}
-
-footer a:link, footer a:visited {
-  color: #4c5155;
-  text-decoration: none;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-footer a:hover {
-  color: #FFFFFF;
-  text-decoration: none;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-footer .row h3 {
-  color: #fc4340;
-}
-
-footer .bouton {
-  color: #FFFFFF;
-  background: #fc4340;
-  text-transform: uppercase;
-  padding: 5px;
-  border-radius: 5px;
-  border: #fc4340 2px solid;
-  font-weight: 600;
-}
-
-footer .email {
-  border-radius: 5px;
-  border: solid 2px #FFFFFF;
-  padding: 5px 5rem 5px 5px;
-  margin-bottom: 1rem;
 }
 
 .movie {
@@ -252,7 +203,6 @@ footer .email {
 
 .reseau {
   list-style: none;
-  background: #FFFFFF;
 }
 
 .reseau .twitter a:link, .reseau .twitter a:visited {
@@ -325,4 +275,55 @@ footer .email {
   margin-left: -0.8rem;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.tendance {
+  width: 70rem;
+  margin: 1rem auto auto auto;
+  background: #f2f0f1;
+  border-radius: 10px;
+}
+
+footer {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+footer sub {
+  background: #4c5155;
+}
+
+footer a:link, footer a:visited {
+  color: #4c5155;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+footer a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+footer .row h3 {
+  color: #fc4340;
+}
+
+footer .bouton {
+  color: #FFFFFF;
+  background: #fc4340;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  border: #fc4340 2px solid;
+  font-weight: 600;
+}
+
+footer .email {
+  border-radius: 5px;
+  border: solid 2px #FFFFFF;
+  padding: 5px 5rem 5px 5px;
+  margin-bottom: 1rem;
 }
